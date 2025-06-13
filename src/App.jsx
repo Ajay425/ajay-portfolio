@@ -5,7 +5,9 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./components/sections/Home";
 import "./index.css";
+import { Projects } from "./components/sections/Projects";
 import { About } from "./components/sections/About";
+import { Contact } from "./components/sections/contact";
 
 function App(){
   const [isLoaded, setIsLoaded] = useState(false)
@@ -21,7 +23,9 @@ function App(){
     <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
     <Home />
     <About/>
-    </div>
+    <Projects />
+    <Contact/>
+  </div>
 
   
   </>

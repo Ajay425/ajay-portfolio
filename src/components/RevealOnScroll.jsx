@@ -6,13 +6,16 @@ export const RevealOnScroll = ({ children }) => {
 
     
     useEffect(() => {
-        const observer = new IntersectionObserver(([entry]) => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
             if (entry.isIntersecting) {
                 ref.current.classList.add("Visible");
             }
-        }, {threshold: 0.2, rootMargin: "0px 0px -50px 0px"}
+        }, 
+        {threshold: 0.2, rootMargin: "0px 0px -50px 0px"}
     );
         if (ref.current) observer.observe(ref.current);
+        
         return () => observer.disconnect();
         });
 

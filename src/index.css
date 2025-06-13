@@ -43,7 +43,7 @@ html, body {
 
 }
 
-.reveal.visible{
+.reveal.Visible{
   opacity: 1;
   transform: translateY(0);
 }
