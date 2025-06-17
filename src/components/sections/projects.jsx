@@ -29,7 +29,7 @@ export const Projects = () => {
                 </div>
             </div>
             <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
-                <h3 className="text-xl font-bold mb-2">NFTPioneer</h3>
+                <h3 className="text-xl font-bold mb-2">Personal Website</h3>
                 <p className="text-grey-400 mb-4">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam placeat, nisi eaque et maxime magnam eum quaerat facilis in tempore quis quam, blanditiis deleniti! Rerum eligendi fuga distinctio quam voluptas!
                 </p>
@@ -49,7 +49,7 @@ export const Projects = () => {
                 </div>
             </div>
             <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
-                <h3 className="text-xl font-bold mb-2">NFTPioneer</h3>
+                <h3 className="text-xl font-bold mb-2">Spotify API Clone</h3>
                 <p className="text-grey-400 mb-4">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam placeat, nisi eaque et maxime magnam eum quaerat facilis in tempore quis quam, blanditiis deleniti! Rerum eligendi fuga distinctio quam voluptas!
                 </p>
