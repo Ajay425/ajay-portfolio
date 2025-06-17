@@ -12,8 +12,7 @@ export const About = () =>  {
 
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-grey-300 mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure, nesciunt sed pariatur itaque suscipit a 
-                ipsum neque quod quae omnis cumque dolorem officia facere quam natus recusandae dolores aperiam?
+                Hi! I’m — a recent Computer Science graduate from York University’s Lassonde School of Engineering. I recently worked as a Network Operations Assistant at YorkU, where I helped monitor and troubleshoot campus-wide infrastructure. I’ve also gained experience in software testing at Sanofi and enjoy building web apps, automating workflows, and exploring new technologies. Outside of tech, I’m a big anime fan (One Piece is the GOAT) and an active stock market enthusiast who loves researching ETFs and tracking market trends. I’m currently seeking new opportunities in software development, automation, or networking — feel free to connect!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,13 +68,25 @@ export const About = () =>  {
                         <div>
                             <h4 className="font-semibold">Network Services Assistant at York University (2024-2025)</h4>
                             <p>
-                                Developed and mainted network infrastructure for York University.
+                                Monitored and maintained campus-wide network infrastructure. Wrote Python scripts using Cisco API to automate diagnostics and improve network issue resolution.
                             </p>
                         </div>
                         <div>
                             <h4 className="font-semibold">Systems Testing Intern at Sanofi (2024-2025)</h4>
                             <p>
-                                Developed and mainted network infrastructure for Sanofi.
+                                Performed system integration and user acceptance testing. Documented results and collaborated with QA teams to ensure compliance and functionality.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 className="font-semibold">Systems Testing Intern at Sanofi (2024-2025)</h4>
+                            <p>
+                                Performed system integration and user acceptance testing. Documented results and collaborated with QA teams to ensure compliance and functionality.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 className="font-semibold">Systems Testing Intern at Sanofi (2024-2025)</h4>
+                            <p>
+                                Performed system integration and user acceptance testing. Documented results and collaborated with QA teams to ensure compliance and functionality.
                             </p>
                         </div>
                     </div>                            
