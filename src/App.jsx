@@ -5,7 +5,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./components/sections/Home";
 import "./index.css";
-import { Projects } from "./components/sections/Projects";
+import { Projects } from "./components/Projects";
 import { About } from "./components/sections/About";
 import { Contact } from "./components/sections/contact";
 
