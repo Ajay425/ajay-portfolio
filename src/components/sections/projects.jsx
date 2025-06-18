@@ -11,10 +11,10 @@ export const Projects = () => {
             <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
                 <h3 className="text-xl font-bold mb-2">NFTPioneer</h3>
                 <p className="text-grey-400 mb-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam placeat, nisi eaque et maxime magnam eum quaerat facilis in tempore quis quam, blanditiis deleniti! Rerum eligendi fuga distinctio quam voluptas!
+                    An Android game built with Java and Android Studio that challenges players to simulate buying, selling, and trading NFTs. Players compete to reach a target balance in the fewest in-game days, with an intuitive and engaging interface that mimics real-world trading dynamics.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                    {["React", "Node", "AWS", "Docker"].map((tech, key) => (
+                    {["Java", "Android Studio", "Junit", ""].map((tech, key) => (
                         <span 
                             key={key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -25,16 +25,16 @@ export const Projects = () => {
                     ))}
                 </div>
                 <div className="flex justify-between items center">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project → </a>
+                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
                 </div>
             </div>
             <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
                 <h3 className="text-xl font-bold mb-2">Personal Website</h3>
                 <p className="text-grey-400 mb-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam placeat, nisi eaque et maxime magnam eum quaerat facilis in tempore quis quam, blanditiis deleniti! Rerum eligendi fuga distinctio quam voluptas!
+                    A responsive and modern website built with React, Tailwind CSS, and Vite to showcase my projects, technical skills, and professional experience. Features include smooth animations, contact form integration, and a clean, mobile-friendly design for easy navigation.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                    {["React", "Node", "AWS", "Docker"].map((tech, key) => (
+                    {["React.js", "Vite", "TailwindCSS"].map((tech, key) => (
                         <span 
                             key={key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -45,16 +45,16 @@ export const Projects = () => {
                     ))}
                 </div>
                 <div className="flex justify-between items center">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project → </a>
+                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
                 </div>
             </div>
             <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
                 <h3 className="text-xl font-bold mb-2">Spotify API Clone</h3>
                 <p className="text-grey-400 mb-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam placeat, nisi eaque et maxime magnam eum quaerat facilis in tempore quis quam, blanditiis deleniti! Rerum eligendi fuga distinctio quam voluptas!
+                    A backend application built with Java and Spring Boot that replicates core Spotify features like user profiles, social connections, and song interactions. Utilized MongoDB for metadata storage, Neo4j for relationship modeling, and OkHttp for external data handling. Exposed RESTful APIs and tested endpoints using Postman for reliability and performance.                
                 </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                    {["React", "Node", "AWS", "Docker"].map((tech, key) => (
+                    {["Java", "MongoDB", "Spring Boot", "Neo4j", "Okhttp3"].map((tech, key) => (
                         <span 
                             key={key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -65,27 +65,7 @@ export const Projects = () => {
                     ))}
                 </div>
                 <div className="flex justify-between items center">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project → </a>
-                </div>
-            </div>
-            <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
-                <h3 className="text-xl font-bold mb-2">NFTPioneer</h3>
-                <p className="text-grey-400 mb-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam placeat, nisi eaque et maxime magnam eum quaerat facilis in tempore quis quam, blanditiis deleniti! Rerum eligendi fuga distinctio quam voluptas!
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                    {["React", "Node", "AWS", "Docker"].map((tech, key) => (
-                        <span 
-                            key={key}
-                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                            hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all
-                            ">
-                                {tech}
-                            </span>
-                    ))}
-                </div>
-                <div className="flex justify-between items center">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project → </a>
+                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
                 </div>
             </div>
         </div>
