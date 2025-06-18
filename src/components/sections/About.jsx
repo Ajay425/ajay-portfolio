@@ -66,27 +66,21 @@ export const About = () =>  {
                      <h3 className="text-xl font-bold mb-4"> 🖥️ Work Experience </h3>
                     <div className="space-y-4 text-gray-300">
                         <div>
-                            <h4 className="font-semibold">Network Services Assistant at York University (2024-2025)</h4>
+                            <h4 className="font-semibold">Network Services Assistant at York University (April 2024 - April 2025)</h4>
                             <p>
-                                Monitored and maintained campus-wide network infrastructure. Wrote Python scripts using Cisco API to automate diagnostics and improve network issue resolution.
+                                Monitored campus-wide network infrastructure and automated diagnostics using Python and Cisco API. Built a Selenium script to configure SNMPv3 on 50+ Schneider Electric devices, cutting setup time by 30%.
                             </p>
                         </div>
                         <div>
-                            <h4 className="font-semibold">Systems Testing Intern at Sanofi (2024-2025)</h4>
+                            <h4 className="font-semibold">Digital R&D Intern at Sanofi (January 2024 - April 2024)</h4>
                             <p>
-                                Performed system integration and user acceptance testing. Documented results and collaborated with QA teams to ensure compliance and functionality.
+                               Performed system integration (SIT) and user acceptance testing (UAT) using HP ALM. Documented test results, identified anomalies, and ensured lab Systems met validation standards. Used ServiceNow for change management and tracking test-related updates.
                             </p>
                         </div>
                         <div>
-                            <h4 className="font-semibold">Systems Testing Intern at Sanofi (2024-2025)</h4>
+                            <h4 className="font-semibold">IT Support Intern at York University (April 2023 - December 2023)</h4>
                             <p>
-                                Performed system integration and user acceptance testing. Documented results and collaborated with QA teams to ensure compliance and functionality.
-                            </p>
-                        </div>
-                        <div>
-                            <h4 className="font-semibold">Systems Testing Intern at Sanofi (2024-2025)</h4>
-                            <p>
-                                Performed system integration and user acceptance testing. Documented results and collaborated with QA teams to ensure compliance and functionality.
+                                Provided technical support to students and faculty for software, hardware, and connectivity issues. Developed a Python script to automate email notifications to students upon successful deployment of Virtual Machines on Google Cloud Platform, streamlining communication and improving efficiency.
                             </p>
                         </div>
                     </div>                            
