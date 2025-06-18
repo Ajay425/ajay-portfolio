@@ -25,7 +25,7 @@ export const Projects = () => {
                     ))}
                 </div>
                 <div className="flex justify-between items center">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
+                    <a href="https://github.com/Ajay425/AACM-Studios" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
                 </div>
             </div>
             <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
@@ -45,7 +45,7 @@ export const Projects = () => {
                     ))}
                 </div>
                 <div className="flex justify-between items center">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
+                    <a href="https://github.com/Ajay425/ajay-portfolio" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
                 </div>
             </div>
             <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
@@ -65,7 +65,7 @@ export const Projects = () => {
                     ))}
                 </div>
                 <div className="flex justify-between items center">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
+                    <a href="https://github.com/Ajay425/spotify-api-clone" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
                 </div>
             </div>
         </div>
