@@ -68,6 +68,27 @@ export const Projects = () => {
                     <a href="https://github.com/Ajay425/spotify-api-clone" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
                 </div>
             </div>
+            <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all">
+                <h3 className="text-xl font-bold mb-2">TrackMySubs</h3>
+                <p className="text-grey-400 mb-4">
+                    A full-stack subscription tracker that lets users manage subscriptions and receive email reminders before renewal. Built with React, Tailwind CSS, Node.js, and MongoDB, it features secure JWT authentication, password reset via email, and a scheduled cron job that sends personalized HTML reminder emails. Designed for simplicity and reliability with a clean, responsive UI.
+                </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                    {["Javascript", "MongoDB", "React", "Tailwind", "Node.js", "Express.js", "RESTful API"].map((tech, key) => (
+                        <span 
+                            key={key}
+                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                            hover:shadow-[0_2px+8px_rgba(59, 130, 246, 0.1)] transition-all
+                            ">
+                                {tech}
+                            </span>
+                    ))}
+                </div>
+                <div className="flex justify-between items center">
+                    <a href="https://github.com/Ajay425/trackmysubs" className="text-blue-400 hover:text-blue-300 transition-colors my-4">Github → </a>
+                </div>
+            </div>
+            
         </div>
         </div>
         </RevealOnScroll>
